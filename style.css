@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body > h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 600;
+}
+
+.counters {
+  display: flex;
+}
+.counters > h2 {
+  margin: 8px;
+}
+
+.board {
+  height: 550px;
+  width: 550px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.hole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8f4e118f;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset 10px 12px 10px 0 rgb(74, 36, 19);
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  width: 120px;
+}
+.startBtn {
+  width: 150px;
+  margin: 20px;
+}
+
+.hide {
+  display: none;
+}
