@@ -75,7 +75,7 @@ holesDiv.forEach((hole) => {
 
 function endGame() {
   //se o score chegar a 150, mostrar a mensagem e esconder o board e o score
-  if (currentScore === 150) {
+  if (currentScore >= 150) {
     window.alert("You win!! 🥑");
     board.classList.add("hide");
     counters.classList.add("hide");
